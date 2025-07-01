@@ -1,0 +1,98 @@
+
+PS C:\Users\DELL\Desktop\Islington\Enrichment\Module-01_Year-01\Code Management with VCS\Week-02\Tutorial-02>
+
+
+
+PS C:\Users\DELL\Desktop\Islington\Enrichment\Module-01_Year-01\Code Management with VCS\Week-02\Tutorial-02>
+PS C:\Users\DELL\Desktop\Islington\Enrichment\Module-01_Year-01\Code Management with VCS\Week-02\Tutorial-02>
+
+PS C:\Users\DELL\Desktop\Islington\Enrichment\Module-01_Year-01\Code Management with VCS\Week-02\Tutorial-02>
+PS C:\Users\DELL\Desktop\Islington\Enrichment\Module-01_Year-01\Code Management with VCS\Week-02\Tutorial-02> git init
+Reinitialized existing Git repository in C:/Users/DELL/Desktop/Islington/Enrichment/Module-01_Year-01/Code Management with VCS/Week-02/Tutorial-02/.git/
+PS C:\Users\DELL\Desktop\Islington\Enrichment\Module-01_Year-01\Code Management with VCS\Week-02\Tutorial-02> git add .
+PS C:\Users\DELL\Desktop\Islington\Enrichment\Module-01_Year-01\Code Management with VCS\Week-02\Tutorial-02> git  commit -a -m "My First commit"
+[main (root-commit) 3fbe935] My First commit
+ 1 file changed, 301 insertions(+)
+ create mode 100644 git_init.html
+PS C:\Users\DELL\Desktop\Islington\Enrichment\Module-01_Year-01\Code Management with VCS\Week-02\Tutorial-02>
+PS C:\Users\DELL\Desktop\Islington\Enrichment\Module-01_Year-01\Code Management with VCS\Week-02\Tutorial-02>
+PS C:\Users\DELL\Desktop\Islington\Enrichment\Module-01_Year-01\Code Management with VCS\Week-02\Tutorial-02> git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream Vanitas7712 main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS C:\Users\DELL\Desktop\Islington\Enrichment\Module-01_Year-01\Code Management with VCS\Week-02\Tutorial-02> git init
+Reinitialized existing Git repository in C:/Users/DELL/Desktop/Islington/Enrichment/Module-01_Year-01/Code Management with VCS/Week-02/Tutorial-02/.git/
+PS C:\Users\DELL\Desktop\Islington\Enrichment\Module-01_Year-01\Code Management with VCS\Week-02\Tutorial-02> git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream Vanitas7712 main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS C:\Users\DELL\Desktop\Islington\Enrichment\Module-01_Year-01\Code Management with VCS\Week-02\Tutorial-02>
+PS C:\Users\DELL\Desktop\Islington\Enrichment\Module-01_Year-01\Code Management with VCS\Week-02\Tutorial-02> git init
+Reinitialized existing Git repository in C:/Users/DELL/Desktop/Islington/Enrichment/Module-01_Year-01/Code Management with VCS/Week-02/Tutorial-02/.git/
+PS C:\Users\DELL\Desktop\Islington\Enrichment\Module-01_Year-01\Code Management with VCS\Week-02\Tutorial-02> git add .
+PS C:\Users\DELL\Desktop\Islington\Enrichment\Module-01_Year-01\Code Management with VCS\Week-02\Tutorial-02> git  commit -a -m "My First commit"
+[main 26b1b3b] My First commit
+ 1 file changed, 301 insertions(+)
+ create mode 100644 text.html
+PS C:\Users\DELL\Desktop\Islington\Enrichment\Module-01_Year-01\Code Management with VCS\Week-02\Tutorial-02> git push    
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream Vanitas7712 main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS C:\Users\DELL\Desktop\Islington\Enrichment\Module-01_Year-01\Code Management with VCS\Week-02\Tutorial-02> git push -u origin main 
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+PS C:\Users\DELL\Desktop\Islington\Enrichment\Module-01_Year-01\Code Management with VCS\Week-02\Tutorial-02> git branch
+* main
+PS C:\Users\DELL\Desktop\Islington\Enrichment\Module-01_Year-01\Code Management with VCS\Week-02\Tutorial-02> git push --force
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+PS C:\Users\DELL\Desktop\Islington\Enrichment\Module-01_Year-01\Code Management with VCS\Week-02\Tutorial-02> git remote add origin https://github.com/Vanitas7712/Iron-Junction.git
+PS C:\Users\DELL\Desktop\Islington\Enrichment\Module-01_Year-01\Code Management with VCS\Week-02\Tutorial-02> git push -u origin main 
+To https://github.com/Vanitas7712/Iron-Junction.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Vanitas7712/Iron-Junction.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+PS C:\Users\DELL\Desktop\Islington\Enrichment\Module-01_Year-01\Code Management with VCS\Week-02\Tutorial-02> git push -u origin main --force
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 3.36 KiB | 1.12 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Vanitas7712/Iron-Junction.git
+ + e7ed73b...26b1b3b main -> main (forced update)
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\DELL\Desktop\Islington\Enrichment\Module-01_Year-01\Code Management with VCS\Week-02\Tutorial-02> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\DELL\Desktop\Islington\Enrichment\Module-01_Year-01\Code Management with VCS\Week-02\Tutorial-02> 
